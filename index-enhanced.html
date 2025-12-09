@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Delicious Bites - Abdelrahman Shehab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Delicious Bites</h1>
+    <p>استمتع بأفضل الأطباق لدينا!</p>
+</header>
+
+<section class="menu">
+    <div class="dish">
+        <h2>بيتزا مارغريتا</h2>
+        <p>الصلصة الطازجة، الجبنة والمكونات الطبيعية.</p>
+        <p>السعر: 120 جنيه</p>
+        <button onclick="orderDish('بيتزا مارغريتا')">اطلب الآن</button>
+    </div>
+    <div class="dish">
+        <h2>مكرونة ألفريدو</h2>
+        <p>مكرونة بالكريمة والجبنة الطازجة.</p>
+        <p>السعر: 100 جنيه</p>
+        <button onclick="orderDish('مكرونة ألفريدو')">اطلب الآن</button>
+    </div>
+    <div class="dish">
+        <h2>سلطة سيزر</h2>
+        <p>خضروات طازجة مع صوص سيزر لذيذ.</p>
+        <p>السعر: 60 جنيه</p>
+        <button onclick="orderDish('سلطة سيزر')">اطلب الآن</button>
+    </div>
+</section>
+
+<script>
+function orderDish(dishName) {
+    alert('لقد طلبت: ' + dishName + '. شكراً لك!');
+}
+</script>
+
+</body>
+</html>
